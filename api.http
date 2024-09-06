@@ -1,0 +1,16 @@
+#### Wordseg 
+POST https://wordle.votee.dev:8000/wordseg
+Content-Type: application/x-www-form-urlencoded
+
+text=homework
+
+### Guess Daily
+GET https://wordle.votee.dev:8000/daily
+    ?guess=hello
+
+### Guess Random
+GET https://wordle.votee.dev:8000/random
+    ?guess=hello&seed=99999
+
+### Guess Word
+GET https://wordle.votee.dev:8000/word/hello?guess=world
