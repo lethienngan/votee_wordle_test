@@ -6,5 +6,5 @@ import app from "./app.js";
 // Guess Random with Seed
 // app("seed", "123455");
 
-// Guess Daily
+// Guess Word
 app("word", "hello");
